@@ -13,6 +13,15 @@
 		6C1B11C127E8C4EA0096E335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1B11BF27E8C4EA0096E335 /* Main.storyboard */; };
 		6C1B11C327E8C4EC0096E335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C1B11C227E8C4EC0096E335 /* Assets.xcassets */; };
 		6C1B11C627E8C4EC0096E335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1B11C427E8C4EC0096E335 /* LaunchScreen.storyboard */; };
+		6C1B11CE27E8C50A0096E335 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1B11CD27E8C50A0096E335 /* Model.swift */; };
+		6C1B11D727E8D0980096E335 /* Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1B11D627E8D0980096E335 /* Parse.swift */; };
+		6C1B11DB27E8D53D0096E335 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1B11DA27E8D53D0096E335 /* ListViewModel.swift */; };
+		6C1B11DE27E8D9410096E335 /* Album_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1B11DC27E8D9410096E335 /* Album_CollectionViewCell.swift */; };
+		6C1B11DF27E8D9410096E335 /* Album_CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C1B11DD27E8D9410096E335 /* Album_CollectionViewCell.xib */; };
+		6C1B11E927E9E7990096E335 /* VC_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1B11E827E9E7990096E335 /* VC_Detail.swift */; };
+		6C1B11EC27EA40A30096E335 /* Album_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1B11EA27EA40A30096E335 /* Album_TableViewCell.swift */; };
+		6C1B11ED27EA40A30096E335 /* Album_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C1B11EB27EA40A30096E335 /* Album_TableViewCell.xib */; };
+		6C1B11EF27EA424A0096E335 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1B11EE27EA424A0096E335 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		6C1B11C227E8C4EC0096E335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C1B11C527E8C4EC0096E335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C1B11C727E8C4EC0096E335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C1B11CD27E8C50A0096E335 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6C1B11D627E8D0980096E335 /* Parse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parse.swift; sourceTree = "<group>"; };
+		6C1B11DA27E8D53D0096E335 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		6C1B11DC27E8D9410096E335 /* Album_CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album_CollectionViewCell.swift; sourceTree = "<group>"; };
+		6C1B11DD27E8D9410096E335 /* Album_CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Album_CollectionViewCell.xib; sourceTree = "<group>"; };
+		6C1B11E827E9E7990096E335 /* VC_Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Detail.swift; sourceTree = "<group>"; };
+		6C1B11EA27EA40A30096E335 /* Album_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album_TableViewCell.swift; sourceTree = "<group>"; };
+		6C1B11EB27EA40A30096E335 /* Album_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Album_TableViewCell.xib; sourceTree = "<group>"; };
+		6C1B11EE27EA424A0096E335 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,64 @@
 		6C1B11B827E8C4EA0096E335 /* MostPlayedListMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				6C1B11E727E922950096E335 /* ViewModel */,
+				6C1B11E227E914030096E335 /* Model */,
+				6C1B11E327E914160096E335 /* View */,
 				6C1B11B927E8C4EA0096E335 /* AppDelegate.swift */,
 				6C1B11BB27E8C4EA0096E335 /* SceneDelegate.swift */,
-				6C1B11BD27E8C4EA0096E335 /* ViewController.swift */,
 				6C1B11BF27E8C4EA0096E335 /* Main.storyboard */,
 				6C1B11C227E8C4EC0096E335 /* Assets.xcassets */,
 				6C1B11C427E8C4EC0096E335 /* LaunchScreen.storyboard */,
 				6C1B11C727E8C4EC0096E335 /* Info.plist */,
 			);
 			path = MostPlayedListMVVM;
+			sourceTree = "<group>";
+		};
+		6C1B11E227E914030096E335 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C1B11CD27E8C50A0096E335 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6C1B11E327E914160096E335 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C1B11EE27EA424A0096E335 /* TableViewController.swift */,
+				6C1B11BD27E8C4EA0096E335 /* ViewController.swift */,
+				6C1B11E827E9E7990096E335 /* VC_Detail.swift */,
+				6C1B11F027EA45120096E335 /* TableCell */,
+				6C1B11E427E914270096E335 /* CollectionCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6C1B11E427E914270096E335 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				6C1B11DC27E8D9410096E335 /* Album_CollectionViewCell.swift */,
+				6C1B11DD27E8D9410096E335 /* Album_CollectionViewCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		6C1B11E727E922950096E335 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6C1B11D627E8D0980096E335 /* Parse.swift */,
+				6C1B11DA27E8D53D0096E335 /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6C1B11F027EA45120096E335 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				6C1B11EA27EA40A30096E335 /* Album_TableViewCell.swift */,
+				6C1B11EB27EA40A30096E335 /* Album_TableViewCell.xib */,
+			);
+			path = TableCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +192,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1B11DF27E8D9410096E335 /* Album_CollectionViewCell.xib in Resources */,
+				6C1B11ED27EA40A30096E335 /* Album_TableViewCell.xib in Resources */,
 				6C1B11C627E8C4EC0096E335 /* LaunchScreen.storyboard in Resources */,
 				6C1B11C327E8C4EC0096E335 /* Assets.xcassets in Resources */,
 				6C1B11C127E8C4EA0096E335 /* Main.storyboard in Resources */,
@@ -139,8 +208,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C1B11BE27E8C4EA0096E335 /* ViewController.swift in Sources */,
+				6C1B11EC27EA40A30096E335 /* Album_TableViewCell.swift in Sources */,
+				6C1B11DE27E8D9410096E335 /* Album_CollectionViewCell.swift in Sources */,
 				6C1B11BA27E8C4EA0096E335 /* AppDelegate.swift in Sources */,
+				6C1B11DB27E8D53D0096E335 /* ListViewModel.swift in Sources */,
+				6C1B11EF27EA424A0096E335 /* TableViewController.swift in Sources */,
 				6C1B11BC27E8C4EA0096E335 /* SceneDelegate.swift in Sources */,
+				6C1B11CE27E8C50A0096E335 /* Model.swift in Sources */,
+				6C1B11D727E8D0980096E335 /* Parse.swift in Sources */,
+				6C1B11E927E9E7990096E335 /* VC_Detail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +365,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HA4N3Z96QZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MostPlayedListMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +393,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HA4N3Z96QZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MostPlayedListMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
